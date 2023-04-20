@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "yz"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+graia-ariadne = {extras = ["standard"], version = "^0.11.3"}
+graia-saya = "^0.0.17"
+aiohttp = "^3.8.4"
+arclet-alconna-graia = ">=0.11.4"
+arclet-alconna-ariadne = ">=0.11.4"
+graiax-shortcut = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "tuna-tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = false
