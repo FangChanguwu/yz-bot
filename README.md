@@ -1,4 +1,4 @@
-# ez-Bot
+# yz-Bot
 一个娱乐QQ群Bot by mirai &amp; Graiax
 ### 基础功能
 - /旅行伙伴
